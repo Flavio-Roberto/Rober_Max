@@ -1,0 +1,1454 @@
+@charset "utf-8";
+/* CSS Document */
+
+ a.back{
+            width:256px;
+            height:73px;
+            position:absolute;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+		
+@media screen and (max-width: 480px) {
+/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+	/* ----------------------- */	
+	a.back2{
+		display:none;
+		
+        }
+        a.activator2{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay2{
+		display:none;
+		position:relative;
+        }
+        .box2{
+		display:none;
+		
+        }
+        .box h12{
+		display:none;
+		
+        }
+        a.boxclose2{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back3{
+		display:none;
+		
+        }
+        a.activator3{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }	
+		
+		/* ----------------------- */	
+	a.back{
+		display:none;
+		
+        }
+        a.activator{
+		display:none;
+		
+        }
+        /* Style for overlay and box */
+        .overlay{
+		display:none;
+		position:relative;
+        }
+        .box{
+		display:none;
+		
+        }
+        .box h1{
+		display:none;
+		
+        }
+        a.boxclose{
+		display:none;
+		
+        }		
+		
+
+}
+
+/* ----------------------------------------------- */
+
+ a.back2{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator2{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay2{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box2{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box2 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose2{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back3{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator3{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay3{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box3{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box3 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose3{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+		
+	/* ----------------------------------------------- */
+
+ a.back4{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator4{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay4{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box4{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box4 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose4{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+	/* ----------------------------------------------- */
+
+ a.back5{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator5{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay5{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box5{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box5 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose5{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+		
+/* ----------------------------------------------- */
+
+ a.back6{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator6{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay6{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box6{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box6 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose6{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+/* ----------------------------------------------- */
+
+ a.back7{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator7{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay7{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box7{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box7 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose7{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+	
+/* ----------------------------------------------- */
+
+ a.back8{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator8{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay8{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box8{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box8 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose8{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+		
+/* ----------------------------------------------- */
+
+ a.back9{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator9{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay9{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box9{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box9 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose9{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back10{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator10{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay10{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box10{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box10 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose10{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back11{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator11{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay11{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box11{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box11 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose11{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back12{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator12{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay12{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box12{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box12 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose12{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back13{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator13{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay13{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box13{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box13 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose13{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+/* ----------------------------------------------- */
+
+ a.back14{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator14{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay14{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box14{
+            position:fixed;
+            top:-2000%;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box14 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose14{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
+
+/* ----------------------------------------------- */
+
+ a.back15{
+            width:256%;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator15{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay15{
+            background:transparent url(images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box15{
+            position:fixed;
+            top:-2000px;
+            left:30%;
+            right:30%;
+            background-color:#fff;
+            color:#7F7F7F;
+            padding:20px;
+            border:2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius:20px;
+            -khtml-border-radius:20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index:101;
+        }
+        .box15 h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#E34A3E;
+            color:#FFFFFF;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }
+        a.boxclose15{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(images/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }
